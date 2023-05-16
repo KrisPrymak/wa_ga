@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/wa_ga/static/css/main.93588521.css",
+    "main.js": "/wa_ga/static/js/main.fb0bc6db.js",
+    "static/media/whatsapp.png": "/wa_ga/static/media/whatsapp.02736a253111ffdfca0c.png",
+    "index.html": "/wa_ga/index.html",
+    "main.93588521.css.map": "/wa_ga/static/css/main.93588521.css.map",
+    "main.fb0bc6db.js.map": "/wa_ga/static/js/main.fb0bc6db.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.93588521.css",
+    "static/js/main.fb0bc6db.js"
+  ]
+}
