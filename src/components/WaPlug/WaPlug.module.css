@@ -1,0 +1,14 @@
+.waContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    filter: opacity(75%);
+    padding: 50px;
+}
+
+.waImg {
+    display: block;
+    width: 300px;
+    margin-bottom: 50px;
+}

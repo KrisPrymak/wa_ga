@@ -1,0 +1,21 @@
+.chat {
+    width: 70%;
+}
+
+.header {
+    padding: 10px 16px;
+    height: 5%;
+    display: flex;
+    align-items: center;
+    font-weight: 700;
+    color: rgba(0, 0, 0, 0.8)
+}
+
+.chat__content {
+    background-color: #efebe2;
+    height: 88%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}

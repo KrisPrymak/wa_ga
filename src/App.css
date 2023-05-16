@@ -1,5 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Mono&display=swap');
+* {
+  font-family: 'Ubuntu Mono', monospace;
+}
 .App {
-  text-align: center;
+  /* text-align: center; */
+  width: 100%;
+  position: relative;
+}
+
+.green {
+  height: 13vh;
+  background-color: #01a884;
+}
+
+.grey {
+  height: 87vh;
+  background-color: #d9dcdc;
+}
+
+.main {
+  position: absolute;
+  background-color: hsl(216deg 20% 95.1%);
+  /* background-color: #efeae2; */
+  width: 84%;
+  height: 95vh;
+  top: 20px;
+  left: 150px;
 }
 
 .App-logo {
@@ -28,11 +54,4 @@
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+

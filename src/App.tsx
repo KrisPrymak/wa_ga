@@ -1,24 +1,19 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import AuthForm from './components/AuthForm/AuthForm';
+import { useAppSelector } from './store/store';
+import MainPage from './components/MainPage/MainPage';
 
 function App() {
+  const { apiTokenInstance, idInstance } = useAppSelector(state => state.mainSlice.auth)
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div className="green"></div>
+      <div className="grey"></div>
+      <div className="main">
+        {apiTokenInstance && idInstance ?
+          <MainPage /> : <AuthForm />}
+      </div>
     </div>
   );
 }

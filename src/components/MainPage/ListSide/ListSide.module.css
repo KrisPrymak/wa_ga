@@ -1,0 +1,31 @@
+.list {
+    width: 30%;
+    border-right: 1px solid rgba(0, 0, 0, .1);
+}
+
+.header {
+    padding: 10px 16px;
+    height: 5%;
+    display: flex;
+    align-items: center;
+    font-weight: 700;
+    color: rgba(0, 0, 0, 0.8)
+}
+
+.content {
+    background-color: #fff;
+    height: 88%;
+    padding: 20px;
+}
+
+.content input {
+    background-color: #f0f2f6;
+    border: none;
+    padding: 7px;
+}
+
+.userName {
+    font-weight: 900;
+    margin-left: 20px;
+    color: rgba(0, 0, 0, 1)
+}
