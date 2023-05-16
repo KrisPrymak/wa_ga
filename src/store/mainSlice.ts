@@ -43,13 +43,6 @@ const initialState: MainState = {
   },
   currentNumber: null,
   chats: [
-    // {
-    //   phoneNumber: 79178849863,
-    //   messagesList: [
-    //     { from: "me", text: "hello im um" },
-    //     { from: "interlocutor", text: "hi how are ypo" },
-    //   ],
-    // },
   ],
   status: null,
   error: null,
@@ -93,13 +86,11 @@ export const getMessage = createAsyncThunk(
         resData = null;
       }
       return resData;
-      // return response.data;
     } catch (error: any) {
       return rejectWithValue(error.message);
     }
   }
 );
-//объект с уведомлением
 const mainSlice = createSlice({
   name: "main",
   initialState,
@@ -155,11 +146,9 @@ const mainSlice = createSlice({
           (item) =>
             item.phoneNumber ==
             action.payload.body.senderData.chatId.substring(0, 11)
-            //action.payload.body.senderData?.chatId.substring(0, 11)
         );
         index === -1
           ? state.chats.push({
-              // phoneNumber: action.payload.body.senderData?.chatId.substring(0, 11),
               phoneNumber: action.payload.body.senderData.chatId.substring(0, 11),
               messagesList: [
                 {

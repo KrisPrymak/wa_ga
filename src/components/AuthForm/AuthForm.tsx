@@ -36,7 +36,7 @@ const AuthForm: React.FC = () => {
           name="idInstance"
           rules={[{ required: true, message: 'Please input your idInstance!' }]}
         >
-          <Input />
+          <Input type='password'/>
         </Form.Item>
 
         <Form.Item
@@ -44,7 +44,7 @@ const AuthForm: React.FC = () => {
           name="apiTokenInstance"
           rules={[{ required: true, message: 'Please input your apiTokenInstance!' }]}
         >
-          <Input />
+          <Input type='password'/>
         </Form.Item>
 
         <Form.Item wrapperCol={{ offset: 8, span: 16 }}>
