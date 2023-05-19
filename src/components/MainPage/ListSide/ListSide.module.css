@@ -1,5 +1,4 @@
 .list {
-    width: 30%;
     border-right: 1px solid rgba(0, 0, 0, .1);
 }
 
@@ -29,3 +28,22 @@
     margin-left: 20px;
     color: rgba(0, 0, 0, 1)
 }
+
+@media (min-width: 1200px) {
+    .list {
+        width: 30%;
+    }
+    .header {
+        height: 10%;
+    }
+  }
+/* 
+  @media (min-width: 1200px) {
+    .main {
+    }
+  }
+  
+  @media (max-width: 600px) {
+    .main {
+    }
+  } */

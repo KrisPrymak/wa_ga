@@ -7,6 +7,7 @@
 <li>Запустите проект <b>npm start</b></li>
 </ol>
 <ul><li>Или перейдите к просмотру проекта на GitHub Pages https://krisprymak.github.io/wa_ga</li></ul>
+<ul><li>Для авторизации вам потребуется зарегистрироваться в личном кабинете https://console.green-api.com/ и получить idInstance и apiTokenInstance</li></ul>
 
 <h3>В проекте используются:</h3>
 <ul>
